@@ -8,15 +8,10 @@
 #     Output                    Output
 #        2                        10
 
-a=input().split()
-new_list=[]
-i=0
-cnt=0
-while i<len(a)-1:
-	d=a[i]
-	c=a[i+1]
-	if d==c:
-		cnt+=1
-		a.pop(d)
-	i+=1
+a = input().split()
+cnt = 0
+for i in range(len(a)):
+    for j in range(i + 1, len(a)):
+        if a[i] == a[j]:
+            cnt += 1
 print(cnt)
