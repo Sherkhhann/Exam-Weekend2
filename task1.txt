@@ -1,0 +1,8 @@
+﻿1:
+    Explain the differences between tuples, lists, dictionaries, and sets in Python. Provide a use case for each data structure..
+    
+    Объясните различия между кортежами, списками, словарями и множествами в Python. Предоставьте вариант использования для каждой структуры данных.
+tuple - immutable meboshad, du method dorad (index, count). Nisbat ba list teztar kor mekunad. ("1", "2", "3")
+list - mutable meboshad. az elementhoi indexdor iborat ast. Nisbat ba tuple methodhoi bisertar dorad, misol: append(), remove(), sort()... ["1", "2", "3"]
+dictionary - mutable meboshad. az value va key iborat meboshad. {"banana": 3, "apple": 4, "milk": 5}
+set - mutable meboshad. elementhoi takrorshavanda nadorad. {"banana", "apple", "nok"}
